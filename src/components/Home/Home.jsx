@@ -21,6 +21,7 @@ const Home=()=>{
         {
         goods.map(ele=>(
            <div key={"ele"}>
+            <h4>{ele.id}</h4>
             <h1>{ele.title}</h1>
             <p>{ele.body}</p>
           </div>
